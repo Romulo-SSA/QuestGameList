@@ -32,7 +32,14 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 
 ---
 
-## 📝 Descrição do Problema que o Projeto Pretende Resolver
+## 📝 Descrição do Problema que o Projeto Pretende Resolver 
+
+### _Esse "Backlog" tem como objetivo solucionar alguns problemas como:_ <br>
+### 1. _Dificuldade em lembrar jogos finalizados, abandonados ou em andamento (Jogadores não possuem um local centralizado para acompanhar seu histórico.)_
+### 2. _Dificuldade em descobrir novos jogos (Encontrar bons jogos pode ser confuso devido à grande quantidade disponível.)_
+### 3. _Ausência de avaliações organizadas (Não há um espaço estruturado para registrar opiniões sobre jogos)_
+### 4. _Falta de registro pessoal (Jogadores não possuem um local centralizado para acompanhar seu histórico.)_
+
 
 ---
 
