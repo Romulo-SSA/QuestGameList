@@ -1,0 +1,66 @@
+quest-game-list/
+│
+├── docs/
+│   ├── arquitetura.md
+│   ├── requisitos.md
+│   ├── diagramas/
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── dashboard.html
+│   │   ├── profile.html
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── fonts/
+│   │
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── layout.css
+│   │   ├── components.css
+│   │   └── pages/
+│   │       ├── home.css
+│   │       ├── login.css
+│   │       ├── dashboard.css
+│   │       └── profile.css
+│   │
+│   └── js/
+│       ├── app.js
+│       ├── auth.js
+│       ├── games.js
+│       └── ui.js
+│
+├── backend/
+│   ├── app/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── models/
+│   │   └── routes/
+│   │
+│   ├── config/
+│   │   └── database.py
+│   │
+│   └── main.py
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── migrations/
+│
+├── devops/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── nginx.conf
+│   └── pipeline.yml
+│
+├── tests/
+│   ├── frontend/
+│   └── backend/
+│
+├── .gitignore
+├── README.md
+└──
