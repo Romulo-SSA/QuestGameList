@@ -22,9 +22,28 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 
 ## 📝 Requisitos Funcionais 
 
+### Como requisitos funcionais, nosso projeto apresenta...
+
+### 1. Gestão de jogos e biblioteca ###
+### 🠒 _Pesquisa de Jogos (O sistema deve permitir que o usuário busque jogos por título, plataforma, gênero ou desenvolvedora (utilizando uma API externa como IGDB).)_ 
+### 🠒 _Registro de estado (O usuário deve conseguir marcar um jogo como "Jogado", "Jogando", "Quero Jogar" (Wishlist) ou "Abandonado")_
+### 🠒 _Criação de backlogs (O sistema deve gerar automaticamente uma lista de jogos pendentes com base nos itens marcados como "Quero Jogar".)_
+
+### 2. Avaliações e Conteúdo do Usuário ###
+### 🠒 _Sistema de Notas (O usuário deve poder atribuir uma nota a qualquer jogo concluido)_
+### 🠒 _Escrita de Reviews (O sistema deve permitir a criação de textos de análise, com opção de marcar como "contém spoilers")_
+### 🠒 _Listas Personalizadas (O usuário deve poder criar, nomear e ordenar listas temáticas)_
+
 ---
 
 ## ⚙️ Requisitos não funcionais
+
+### Como requisitos não funcionais, nosso projeto apresenta...####
+
+### 1.__
+### 2.__
+### 3.__
+### 4.__
 
 ---
 
