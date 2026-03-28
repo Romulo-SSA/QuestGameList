@@ -212,7 +212,8 @@ quest-game-list/
 ## 🌀 Fluxo de execução do pipeline
 
 ## Como foi aplicado:
-Criei um arquivo no repositório chamado (.github/workflows/ci.yml). Nosso pipeline foi configurado com GitHub Actions e é executado automaticamente a cada push no repositório.
+```
+ Criamos um arquivo no repositório chamado (.github/workflows/ci.yml). Nosso pipeline foi configurado com GitHub Actions e é executado automaticamente a cada push no repositório.
 on:
    push:
      branches: [ "main", "principal" ]
@@ -228,8 +229,9 @@ jobs:
        run: ls -la
        - name: Finalizar
        run: echo "Tudo certo!"
+
 Ele realiza três etapas principais:
 Exibe uma mensagem confirmando execução
 Lista os arquivos do projeto
 Simula a execução do sistema
-
+```
