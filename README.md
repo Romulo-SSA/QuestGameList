@@ -87,7 +87,7 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 ## ⚙️ Requisitos não funcionais
 
 <details>
-  <summary>Os requisitos não funcionais que nosso projeto apresenta são... (Clique para expandir)</summary>
+  <summary><b>Os requisitos não funcionais que nosso projeto apresenta são... (Clique para expandir)</summary>
   
   * RNF01 - O sistema deve possuir interface simples e intuitiva.
     
