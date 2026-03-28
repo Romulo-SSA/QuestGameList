@@ -87,7 +87,7 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 ## ⚙️ Requisitos não funcionais
 
 <details>
-  <summary><b>Os requisitos não funcionais que nosso projeto apresenta são... (Clique para expandir)</summary>
+  <summary><h3>Os requisitos não funcionais que nosso projeto apresenta são... (Clique para expandir)</h3></summary>
   
   * RNF01 - O sistema deve possuir interface simples e intuitiva.
     
@@ -102,6 +102,18 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 ---
 
 ## 🤖 Tecnologias Usadas
+<details>
+  <summary><h3>As tecnologis que usamos... (Clique para expandir)</h3></summary>
+
+  * Canva
+  * HTML/CSS
+  * Javascript
+  * Node.js
+  * GitHub
+  * CI/CD
+  * ChatGPT
+
+</details>
 
 ---
 
@@ -117,6 +129,75 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 ---
 
 ## 📦 Estrutura do repositório
+
+### Árvore do site no repositório
+
+quest-game-list/
+│
+├── docs/
+│   ├── arquitetura.md
+│   ├── requisitos.md
+│   ├── diagramas/
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── dashboard.html
+│   │   ├── profile.html
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── fonts/
+│   │
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── layout.css
+│   │   ├── components.css
+│   │   └── pages/
+│   │       ├── home.css
+│   │       ├── login.css
+│   │       ├── dashboard.css
+│   │       └── profile.css
+│   │
+│   └── js/
+│       ├── app.js
+│       ├── auth.js
+│       ├── games.js
+│       └── ui.js
+│
+├── backend/
+│   ├── app/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── models/
+│   │   └── routes/
+│   │
+│   ├── config/
+│   │   └── database.py
+│   │
+│   └── main.py
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── migrations/
+│
+├── devops/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── nginx.conf
+│   └── pipeline.yml
+│
+├── tests/
+│   ├── frontend/
+│   └── backend/
+│
+├── .gitignore
+├── README.md
+└── package.json
 
 ---
 
