@@ -131,7 +131,7 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 ## 📦 Estrutura do repositório
 
 ### Árvore do site no repositório
-
+```
 quest-game-list/
 │
 ├── docs/
@@ -198,7 +198,7 @@ quest-game-list/
 ├── .gitignore
 ├── README.md
 └── package.json
-
+```
 ---
 
 ## 🧠 Explicação do workflow (ci.yml)
