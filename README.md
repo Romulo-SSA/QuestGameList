@@ -202,10 +202,30 @@ quest-game-list/
 ---
 
 ## 🧠 Explicação do workflow (ci.yml)
+```
+Nosso caso, o workflow é o arquivo ci.yml, onde configuramos as etapas automáticas que o GitHub vai executar sempre que houver um push no projeto.
 
+-> Explicação mais detalhada
+
+O workflow organiza todo o processo de integração contínua, definindo eventos (como push), tarefas (jobs) e os passos (steps) que serão executados automaticamente.
+
+Workflow é tipo um roteiro automático do que o sistema deve fazer.
+
+O workflow foi usado para automatizar tarefas simples como exibir mensagens e verificar os arquivos, garantindo que o projeto esteja organizado.
+
+Workflow → o arquivo com as regras (ci.yml)
+Pipeline → o processo rodando
+```
 ---
 
 ## 🔄 Explicação do pipeline
+O que é o pipeline?
+O pipeline é um processo automático que roda quando você faz um push no GitHub, ou seja, sempre que alguém da equipe subir código, o GitHub automaticamente executa algumas tarefas.
+O que o pipeline precisa entregar?
+ Pipeline precisa ter pelo menos 3 coisas:
+1.	 Mostrar uma mensagem no console
+2.	 Executar algum script do projeto
+3.	 Listar arquivos ou validar algo
 
 ---
 
