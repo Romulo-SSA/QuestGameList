@@ -24,26 +24,80 @@ Trabalho de Gerenciamento e Configuração de dependência e DevOps Tools
 
 ### Como requisitos funcionais, nosso projeto apresenta...
 
-### 1. Gestão de jogos e biblioteca ###
-### 🠒 _Pesquisa de Jogos (O sistema deve permitir que o usuário busque jogos por título, plataforma, gênero ou desenvolvedora (utilizando uma API externa como IGDB).)_ 
-### 🠒 _Registro de estado (O usuário deve conseguir marcar um jogo como "Jogado", "Jogando", "Quero Jogar" (Wishlist) ou "Abandonado")_
-### 🠒 _Criação de backlogs (O sistema deve gerar automaticamente uma lista de jogos pendentes com base nos itens marcados como "Quero Jogar".)_
+<details>
+<summary><b>1. Gestão de Biblioteca & Backlog</b> (Clique para expandir)</summary>
 
-### 2. Avaliações e Conteúdo do Usuário ###
-### 🠒 _Sistema de Notas (O usuário deve poder atribuir uma nota a qualquer jogo concluido)_
-### 🠒 _Escrita de Reviews (O sistema deve permitir a criação de textos de análise, com opção de marcar como "contém spoilers")_
-### 🠒 _Listas Personalizadas (O usuário deve poder criar, nomear e ordenar listas temáticas)_
+* RF01 - Catálogo de Jogos: O usuário deve ser capaz de buscar jogos em uma base de dados global (via API IGDB/RAWG). 
+
+* RF02 - Estados de Jogo: Possibilidade de marcar jogos como Jogado, Jogando, Quero Jogar ou Abandonado.
+
+* RF03 - Filtros de Busca: Filtrar jogos por gênero, plataforma, ano de lançamento e avaliação.
+
+* RF04 - Importação de Dados: Permitir que o usuário importe sua biblioteca de outras plataformas (ex: Steam).
+
+</details>
+
+<details>
+<summary><b>2. Avaliações e Social</b> (Clique para expandir)</summary>
+
+* RF05 - Sistema de Reviews: Escrita de análises críticas com suporte a alertas de spoiler.
+
+* RF06 - Notas Numéricas: Atribuição de notas (0 a 10) para cada título finalizado.
+
+* RF07 - Listas Personalizadas: Criação de coleções temáticas (ex: "Top 10 RPGs").
+
+* RF08 - Rede Social: Seguir outros usuários, curtir reviews e visualizar o feed de atividades de amigos.
+</details>
+
+<details>
+<summary><b>3. Progresso e Perfil</b> (Clique para expandir)</summary>
+
+* RF09 - Contador de Horas: Registro manual ou automático do tempo investido em cada jogo.
+
+* RF10 - Histórico de Sessões: Calendário mostrando quando o usuário iniciou e terminou cada título.
+
+* RF11 - Estatísticas de Perfil: Gráficos automáticos exibindo gêneros mais jogados e tempo total de jogo.
+</details>
+
+<details>
+<summary><b>4. Social e Interação</b> (Clique para expandir)</summary>
+
+* RF12 - Sistema de Seguidores: Seguir perfis para acompanhar atualizações.
+
+* RF13 - Feed de Atividade: Linha do tempo com as últimas ações dos amigos..
+
+* RF14 - Interação: Curtir e comentar em reviews e listas.
+
+</details>
+
+<details>
+<summary><b>5. Gerenciamento de Perfil</b> (Clique para expandir)</summary>
+
+* RF15 - Autenticação: Cadastro e login seguro.
+
+* RF16 - Personalização: Edição de avatar, bio e banners.
+
+* RF17 - Dashboard: Visualização de estatísticas e gráficos de progresso.
+
+</details>
+
 
 ---
 
 ## ⚙️ Requisitos não funcionais
 
-### Como requisitos não funcionais, nosso projeto apresenta...####
-
-### 1.__
-### 2.__
-### 3.__
-### 4.__
+<details>
+  <summary>Os requisitos não funcionais que nosso projeto apresenta são... (Clique para expandir)</summary>
+  
+  * RNF01 - O sistema deve possuir interface simples e intuitiva.
+    
+  * RNF02 - O sistema deve possuir tempo de resposta rápido.
+    
+  * RNF03 - O sistema deve garantir segurança no login do usuário.
+    
+  * RNF04 - O sistema deve ser acessível em navegadores web modernos.
+  
+</details>
 
 ---
 
